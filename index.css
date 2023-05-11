@@ -1,0 +1,143 @@
+.container {
+    max-width: 455px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(9, 11, 13, 0.3);
+}
+body {
+    background:white;
+    padding: 100px;
+  }
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons {
+    display: grid;
+    border-bottom: 2px solid #999;
+    border-left: 2px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#clear {
+    background-color: rgb(0, 0, 0);
+    color :white
+}
+#clear:hover {
+    background-color:rgb(255, 0, 0);
+    transition: 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+#equal {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#equal:hover {
+
+    background-color:rgb(255, 255, 255);
+    transition: 0.3s ease;
+    color :rgb(0, 0, 0);
+}
+#divide {
+    background-color: #000000;
+    color: snow;
+}
+#divide:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+#multiply {
+    background-color: #000000;
+    color: snow;
+}
+
+#multiply:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#back {
+    background-color: #000000;
+    color: snow;
+}
+
+#back:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#minus {
+    background-color: #000000;
+    color: snow;
+}
+
+#minus:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#add {
+    background-color: #000000;
+    color: snow;
+}
+
+#add:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#decimal {
+    background-color: #000000;
+    color: snow;
+}
+
+#decimal:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#openBrackets {
+    background-color: #000000;
+    color: snow;
+}
+
+#openBrackets:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
+
+#closeBrackets {
+    background-color: #000000;
+    color: snow;
+}
+
+#closeBrackets:hover {
+    background-color: blue;
+    transition: 0.5s ease;
+    color: #000000;
+}
